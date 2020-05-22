@@ -1,0 +1,54 @@
+name: climate
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  outline_material_icons: ^0.1.1
+  geolocator: ^5.3.1
+  http: ^0.12.0+4
+  weather_icons: ^2.0.1
+  analog_clock: 0.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+module:
+  androidX: true
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - images/
+
+  fonts:
+  - family: Ghaisan
+    fonts:
+    - asset: images/fonts/ghaisan.ttf
+
+  - family: ViaodaLibre-Regular
+    fonts:
+    - asset: images/fonts/ViaodaLibre-Regular.ttf
+
+  - family: Pacifico-Regular
+    fonts:
+    - asset: images/fonts/Pacifico-Regular.ttf
+
+  - family: SourceSansPro-Regular
+    fonts:
+    - asset: images/fonts/SourceSansPro-Regular.ttf
+
+  - family: AUBREY1
+    fonts:
+    - asset: images/fonts/Aubrey.ttf
